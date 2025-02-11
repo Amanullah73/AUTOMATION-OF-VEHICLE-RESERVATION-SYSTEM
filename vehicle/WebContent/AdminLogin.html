@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="lightblue">
+<form name="form1" action="./AdminLoginServ" method="get">
+<table cellpadding="10" bgcolor="purple" style="font-size:30px; font-weight:bolder; color:Yellow;" border="8" bordercolor="green" width="100%" >
+            <tr>
+                <td>
+                    ADMIN WEB CONTROLL</td>
+            </tr>
+        </table>
+        <hr size="10" color="red" />
+        <img src="Images/17.jpeg" />
+        <table cellpadding="10" align="right" border="4" bordercolor="lime">
+        <tr>
+        <td>
+        USERNAME
+        </td>
+        <td>
+        <input type="text" name="Text1"></input>
+        </td>
+        </tr>
+        <tr>
+        <td>Password</td>
+        <td> <input type="password" name="Text2"></input></td>
+        </tr>
+        <tr>
+        <td colspan="2" align="center">
+        <input type="Submit" value="login"></input>
+        <input type="reset" value="reset"></input>
+        </td>
+        </tr>
+        </table>
+        </form>
+</body>
+</html>
+
+<script language="javascript">
+
+function AdminLogin()
+{
+	alert("Hi");
+	var Name= document.form1.Text1.value;
+	var pass= document.form1.Text2.value;
+	if(Name=="Admin" && Pass="1234")
+	{
+		window.location="Admin.html";
+	}
+else
+	{
+		alert("Wrong userName and Password");
+	}
+
+
+}
+</script>
