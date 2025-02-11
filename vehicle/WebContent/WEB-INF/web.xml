@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>SupplyChainManagementSystem</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list> 
+	
+	<servlet>
+	<servlet-name>pro</servlet-name>
+	<servlet-class>proservlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	<servlet-name>pro</servlet-name>
+	<url-pattern>/pro</url-pattern>
+	</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>reg</servlet-name>
+	<servlet-class>regservlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	<servlet-name>reg</servlet-name>
+	<url-pattern>/reg</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>dist</servlet-name>
+	<servlet-class>distservlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	<servlet-name>dist</servlet-name>
+	<url-pattern>/dist</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>com</servlet-name>
+	<servlet-class>comservlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	<servlet-name>com</servlet-name>
+	<url-pattern>/com</url-pattern>
+	</servlet-mapping>
+	
+		
+	<servlet>
+	<servlet-name>man</servlet-name>
+	<servlet-class>manservlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	<servlet-name>man</servlet-name>
+	<url-pattern>/man</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>ret</servlet-name>
+	<servlet-class>retservlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	<servlet-name>ret</servlet-name>
+	<url-pattern>/ret</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>log</servlet-name>
+	<servlet-class>loginservlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	<servlet-name>log</servlet-name>
+	<url-pattern>/log</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>AdminLoginServ</servlet-name>
+	<servlet-class>AdminLoginServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	<servlet-name>AdminLoginServ</servlet-name>
+	<url-pattern>/AdminLoginServ</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	</web-app>
